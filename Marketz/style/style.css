@@ -1,0 +1,390 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {}
+
+/* Шапка */
+
+header {
+    height: 700px;
+    width: 100%;
+    background: rgb(57, 27, 115);
+    background: linear-gradient(5000deg, rgba(57, 27, 115, 1) 0%, rgb(124, 13, 158) 100%);
+    border-radius: 0 0 80% 80% / 0 0 50% 50%;
+}
+
+.header_content {
+    color: white;
+    padding-top: 13%;
+    padding-left: 10%;
+    width: 60%;
+}
+
+.header_content span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.header_content h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 6%;
+    font-size: 2em;
+    width: 60%;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.header_content h2 span {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.header_content p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    font-weight: 100;
+    margin-bottom: 3%;
+    width: 55%;
+    letter-spacing: 0.5px;
+}
+
+.header_content a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #0287EC;
+    padding: 11px 40px;
+    transition: 0.5s;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+
+.header_content a:hover {
+    background-color: #EE4E64;
+    text-decoration: none;
+}
+
+/* Сервисы  */
+
+.services {
+    height: 850px;
+}
+
+.services>div {
+    float: left;
+    width: 25%;
+    margin-left: 8%;
+}
+
+.services_description {
+    margin-top: 7%;
+    letter-spacing: 1px;
+    margin-left: 8%;
+}
+
+.services_description p {
+    color: #f00;
+    font-size: 1.1em;
+}
+
+.services_description h2 {
+    margin-top: 15px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.line {
+    margin-top: 30px;
+    width: 10%;
+    border-top: 2px solid #f00;
+}
+
+.services_description span {
+    display: inline-block;
+    margin-left: 50px;
+    width: 80%;
+    color: rgb(138, 138, 138);
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.services_items {
+    display: inline-block;
+}
+
+.services_items .wp-post-image {
+    text-align: center;
+}
+
+.services_items img {
+    padding-left: 30%;
+    padding-bottom: 5%;
+}
+
+.services_items h3 {
+    font-weight: 500;
+    margin-left: 25%;
+}
+
+.services_items span {
+    color: rgb(138, 138, 138);
+}
+
+/* Товары */
+
+.products {
+    height: 1000px;
+    background-color: #F3F6FD;
+}
+
+.products .services_description {
+    padding-top: 2%;
+}
+
+.goods ul {
+    margin-top: 10px;
+    margin-left: 15%;
+    list-style-type: none;  
+}
+
+.goods ul li {
+    width: 30%;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.goods ul li img {
+    width: 90%;
+}
+
+.goods ul li h3 {
+    padding-top: 12px;
+    letter-spacing: 1px;
+    color: rgb(34, 33, 33);
+}
+
+.goods ul li p {
+    font-weight: 100;
+    padding-top: 12px;
+    color: rgb(107, 107, 107);
+}
+
+.goods ul li span {
+    color: rgb(190, 22, 22);
+    letter-spacing: 2px;
+}
+
+/*Статистика*/
+
+.statistics {
+    height: 200px;
+    background-color: #F3F6FD;
+}
+
+.statistics ul {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.statistics ul li {
+    display: inline-block;
+    width: 20%;
+    border-right: 1px solid rgb(175, 175, 175);
+}
+
+.statistics ul li:nth-last-child(1) {
+    border-right: none;
+}
+
+.statistics ul li span {
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    color: rgb(19, 79, 129);
+    font-weight: 500;
+
+}
+
+.statistics ul li p {
+    margin-top: 4px;
+    color: rgb(92, 92, 92);
+}
+
+/* Комментарии */
+
+.comments {
+    height: 500px;
+}
+
+.comments .services_description {
+    width: 23%;
+}
+
+.comment {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.comment span {
+    font-size: 1.5em;
+    color: rgb(133, 133, 133);
+}
+
+.comment img {
+    margin-top: 20px;
+    position: relative;
+}
+
+.comment h5 {
+    margin-top: 20px;
+}
+
+.comment p {
+    color: rgb(167, 167, 167);
+    margin-top: 5px;
+}
+
+/* Контакты */
+
+.contacts>div {
+    float: left;
+    width: 23%;
+}
+
+.contacts {
+    height: 600px;
+}
+
+.contacts .services_description {
+    padding-top: 30px;
+    width: 25%;
+    margin-right: 400px;
+}
+
+.contacts ul {
+    padding-top: 10%;
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+.contacts ul li {
+    padding-top: 40px;
+}
+
+.contacts ul li img {
+    width: 2%;
+    height: 2%;
+}
+
+.contacts ul li span {
+    padding-left: 10px;
+}
+
+/* Футер */
+
+footer>div {
+    display: inline-block;
+    width: 23%;
+}
+
+footer {
+    height: 530px;
+    width: 100%;
+    background: rgb(57, 27, 115);
+    background-image: linear-gradient(to bottom, #5c1b90, #511c89, #461d81, #3c1d79, #321c71);
+    border-radius: 80% 80% 0 0 / 50% 50% 0 0;
+    text-align: center;
+}
+
+footer .link_1 {
+    padding-top: 8%;
+    color: white;
+}
+
+.link_1 ul {
+    list-style-type: none;
+}
+
+.link_1 ul li {
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+
+.link_1 ul li a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.link_1 ul li a:hover {
+    color: rgb(190, 16, 16);
+}
+
+
+footer .link_2 {
+    color: white;
+    margin-bottom: 60px;
+}
+
+.link_2 ul {
+    list-style-type: none;
+}
+
+.link_2 ul li {
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+
+.link_2 ul li a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.link_2 ul li a:hover {
+    color: rgb(190, 16, 16);
+}
+
+
+
+footer .buttons {
+    padding-top: 1%;
+    color: white;
+}
+
+.buttons ul {
+    list-style-type: none;
+}
+
+.buttons ul li {
+    display: inline-block;
+    font-size: 1.4em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(110, 76, 99, 0.13);
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.buttons ul li:hover {
+    background-color: rgba(214, 13, 57, 0.507);
+}
+
+.buttons ul li a {
+    color: white;
+}
+
+.buttons ul li a:hover {
+    text-decoration: none;
+}
+
+footer hr {
+    top: 5%;
+    background-color: white;
+}
+
+footer span {
+    color: white;
+}

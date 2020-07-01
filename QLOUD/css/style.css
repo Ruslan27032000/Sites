@@ -1,0 +1,388 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+@import url(https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(247, 244, 244);
+}
+
+.logo {
+    text-align: center;
+    padding-right: 8px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Saira Stencil One';
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(59, 59, 114);
+}
+
+.nav {
+    padding-top: 10px;
+    padding-left:2%;
+    text-align: center;
+}
+
+
+ul li {
+    display: inline-block;
+    margin-right: 75px;
+    list-style: none;
+}
+
+ul li a {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+
+.content {
+    padding-top: 35px;
+    padding-left: 100px;
+}
+
+.news {
+    border-bottom: 2px solid black;
+    width: 60%;
+}
+
+.first-news {
+    margin-left: 100px;
+}
+
+.first-news a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.first-news img {
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-right: 170px;
+}
+
+.other-news {
+    margin-top: 100px;
+    padding-left:40px; 
+}
+.other-news div{
+    display: inline-block;
+}
+
+.first {
+    width: 33%;
+    border-right: 2px solid black;
+}
+
+.first h3 {
+    padding-left: 40px;
+}
+.first a{
+    text-decoration: none;
+    color:black;
+}
+.first p {
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+    width: 80%;
+}
+
+.first img {
+    width: 350px;
+    height: 233px;
+    padding-left: 40px;
+}
+.first .date{
+    padding-left:43%;
+}
+.second{
+    padding-left: 20px;
+    width:30%;
+    border-right: 2px solid black;
+    padding-right:20px;
+}
+.second h3{
+    padding-left: 20px;
+}
+.second a{
+    text-decoration: none;
+    color:black;
+}
+.second p {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.second img{
+    width: 350px;
+    height: 233px;
+    padding-left: 18px;
+}
+.second .date{
+    padding-left: 42%;
+}
+.third{
+    width:28%;
+}
+.third h3{
+    padding-left: 35px;
+}
+.third a{
+    text-decoration: none;
+    color:black;
+}
+.third p{
+    padding-left: 35px;
+    width: 70%;
+}
+.third img{
+    width: 350px;
+    height: 233px;
+    margin-left: 35px;
+}
+.third .date{
+    padding-left:48%;
+}
+
+.chart p{
+    font-size: 50px;
+    text-align: center;
+}
+table{
+    margin-left:210px;
+    border-collapse: collapse;
+    width: 70%;
+}
+tr{
+    height: 55px;
+    text-align: center;
+    
+}
+td{
+    border-bottom: 2px solid rgb(224, 221, 221);
+}
+td a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+td img{
+    padding-top:5px; 
+    padding-left:20px;
+    height: 60px;
+    width: 60px;
+}
+.artists{
+    height:680px;
+    margin-top:60px;
+    background: black;
+}
+.top-artists{
+    padding-top:10px; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color:white;
+}
+.button-artists{
+  margin-left:602px;
+  border:2px solid white;
+  font-size: 15px;
+  padding: 10px;
+  color:white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+/* --------------------------------------------------------------- */
+/* hide retired drivers */
+table tbody tr:nth-last-child(-n+13) {
+    display: none;
+  }
+  /* hide the checkbox that manipulates last table rows */
+  #showRetired {
+    display: none;
+  }
+  /* hide "hide" button */
+  #showRetired ~ #hideBtn {
+    display: none;
+  }
+  /* show retired drivers. */
+  #showRetired:checked {
+    /* change the buttons around */
+  }
+  #showRetired:checked + table tbody tr:nth-last-child(-n+13) {
+    display: table-row;
+  }
+  #showRetired:checked ~ #showBtn {
+    display: none;
+  }
+  #showRetired:checked ~ #hideBtn {
+    display: inline;
+  }
+  /* style buttons a little bit */
+  label[for='showRetired'] {
+    margin-left:597px;
+    background: rgb(247, 244, 244);
+    border:2px solid black;
+    color:black;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+  }
+/* --------------------------------------------------------------- */
+.swiper-container {
+  width: 100%;
+  height: 508px;
+}
+.swiper-slide {
+  text-align: center;
+  background: black;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-general {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 800px;
+}
+.container-general .gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+.container-general .gallery-wrap .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: all 0.8s ease;
+}
+.container-general .gallery-wrap .item:hover {
+  flex: 7;
+}
+.wrap-effect-1 .item:first-of-type {
+  background-image: url('https://pp.userapi.com/c855720/v855720292/a5202/mRuv34lCzsk.jpg');
+}
+.wrap-effect-1 .item:nth-of-type(2) {
+  background-image: url('https://s.mxmcdn.net/images-storage/albums4/7/6/2/0/4/7/40740267_800_800.jpg');
+}
+.wrap-effect-1 .item:nth-of-type(3) {
+  background-image: url('http://www.redaction.kz/wp-content/uploads/2017/11/IMG_7797-09-11-17-09-31-e1510304330650.jpg');
+}
+.wrap-effect-1 .item:nth-of-type(4) {
+  background-image: url('https://netstorage-nur.akamaized.net/images/pogudx7qlamoj7ab6.jpg?imwidth=900');
+}
+.wrap-effect-1 .item:last-of-type {
+  background-image: url('https://cdn.fishki.net/upload/post/2019/02/14/2877334/tn/dmryemgxkaakiyn.jpg');
+}
+.wrap-effect-2 .item:hover {
+  transform: translate3d(0, 0, 100px);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  filter: saturate(2) contrast(120%);
+}
+.inspire {
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+.inspire:hover:after {
+  left: 120%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(10deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-10deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(5deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+/* -------------------------------------------------------------------- */
+.center {
+    display: table;
+    width: 100%;
+    height: 300px;
+}
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+#social-test h2 {
+
+    color: black;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+}
+#social-test .social {
+    padding-left: 0px;
+}
+#social-test li {
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(167,146,129,0.4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+}
+#social-test li:hover:nth-child(4){
+    color: red;
+    border: 1px solid red;
+}
+#social-test li:hover:nth-child(3){
+    color: rgb(22, 22, 82);
+    border: 1px solid rgb(22, 22, 82);
+}
+#social-test li:hover:nth-child(2){
+    color: rgb(129, 28, 96);
+    border: 1px solid rgb(129, 28, 96);
+}
+#social-test li:hover:nth-child(1){
+    color: rgb(43, 50, 155);
+    border: 1px solid rgb(43, 50, 155);
+}
+.social{
+    margin-left:50px;
+}
+.social:hover > li {
+    opacity: 0.5;
+}
+.social:hover > li:hover {
+    opacity: 1;
+}

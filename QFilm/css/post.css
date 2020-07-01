@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+    width: 100%;
+    background-image: url(https://img3.akspic.ru/preview/7100-zanaves-tekstury-tekstura-tekstilnyj-tkan-550x310.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #615e5e;
+    background-blend-mode: multiply;
+}
+
+
+.nav {
+    text-align: center;
+    padding-top: 1%;
+    height: 30px;
+}
+
+.nav a {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 4%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.nav a:hover {
+    color: rgb(211, 25, 25);
+}
+
+
+
+.user img {
+    position: relative;
+    top: 11px;
+    margin-right: 13px;
+    height: 40px;
+    width: 38px;
+}
+
+.logo {
+    padding-top: 5%;
+}
+
+.logo img {
+    height: 30px;
+    width: 38px;
+}
+
+.logo span {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+header hr {
+    margin-top: 40px;
+}
+
+.post {
+    width: 70%;
+    margin: 3% 15%;
+    position: relative;
+}
+
+
+.photo p {
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    margin-bottom: 70px;
+}
+
+.photo a {
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: white;
+}
+
+.photo a:nth-child(2) {}
+
+.photo a:nth-child(3) {}
+
+.article {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.article p:nth-child(1) {
+    font-size: 4em;
+    text-align: center;
+}
+
+.article p:nth-child(3) {
+    font-size: 1.2em;
+}
+
+.shedule {
+    background-color: #ffffff;
+    height: 550px;
+}
+
+.cinemas {
+    float: left;
+    padding-top: 4%;
+    margin-left: 3%;
+    width: 20%;
+}
+
+.cinemas ul {
+    padding-top: 8px;
+}
+
+.cinemas ul li {
+    padding-top: 20px;
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid grey;
+}
+
+.cinemas ul h2 {
+    text-align: center;
+    color: rgb(134, 131, 126);
+}
+
+.cinemas ul li a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(78, 72, 72);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.cinemas ul li a:hover {
+    color: rgb(201, 121, 30);
+}
+
+.date {
+    float: left;
+    padding-top: 2.7%;
+    padding-left: 2%;
+    width: 75%;
+}
+
+
+.date ul li {
+    display: inline;
+    margin-right: 4%;
+}
+
+.date ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(77, 76, 74);
+    font-weight: bold;
+}
+
+.date ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(77, 76, 74);
+    font-weight: bold;
+}
+
+
+.date ul li a:hover {
+    color: rgb(201, 121, 30);
+}
+
+.date ul li a.visited {
+    color: rgb(201, 121, 30);
+}
+
+.cinemas ul li a.visited {
+    color: rgb(201, 121, 30);
+}
+
+/* Список фильмов */
+
+
+.films {
+    width: 100%;
+}
+
+.films ul li {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.films img {
+    width: 200px;
+    height: 300px;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.films ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.films ul li a img:hover {
+    color: black;
+}
+
+.films figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.films figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.15);
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.cwdtable {
+    font-size: 12px;
+    color: #fbfbfb;
+    width: 100%;
+    border-width: 1px;
+}
+
+.cwdtable thead{
+    font-size: 1.2em;
+}
+
+.cwdtable th {
+    color: rgb(0, 0, 0);
+    font-size: 1.45em;
+    border-width: 1px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #686767;
+}
+
+.cwdtable tr {
+    background: #fff;
+    color: #000;
+}
+
+.cwdtable td {
+    padding:10px;
+    font-size: 1.5em;
+    border-width: 1px;
+    padding: 20px;
+    /* border-style: solid;
+    border-color: #686767; */
+}
+
+.mobileTable {
+    padding-left: 20px;
+    padding-top:33px;
+    overflow: auto;
+    width: 70%; 
+}
+
+.cwdtable th,
+.cwdtable td {
+    text-align: center
+}
+
+.cwdtable tbody tr:hover {
+    background: #d5d5d5;
+    color: #000;
+}
+
+/* Футер */
+
+.center {
+    background-color: rgb(0, 0, 0);
+    display: table;
+    width: 100%;
+    height: 450px;
+}
+
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+
+#social-test h2 {
+    color: white;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+}
+
+#social-test .social {
+    padding-left: 0px;
+}
+
+#social-test li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(167, 146, 129, 0.4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+    transition: ease .3s;
+}
+
+#social-test li:hover:nth-child(4) {
+    color: red;
+    border: 1px solid red;
+}
+
+#social-test li:hover:nth-child(3) {
+    color: rgb(22, 22, 82);
+    border: 1px solid rgb(22, 22, 82);
+}
+
+#social-test li:hover:nth-child(2) {
+    color: rgb(129, 28, 96);
+    border: 1px solid rgb(129, 28, 96);
+}
+
+#social-test li:hover:nth-child(1) {
+    color: rgb(43, 50, 155);
+    border: 1px solid rgb(43, 50, 155);
+}
+
+.social:hover>li {
+    opacity: 0.5;
+}
+
+.social:hover>li:hover {
+    opacity: 1;
+}
+

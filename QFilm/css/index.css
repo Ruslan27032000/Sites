@@ -1,0 +1,580 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* Шапка сайта */
+
+@media(min-width:1280px) {
+    header {
+        width: 100%;
+        text-align: center;
+        background-image: url(https://img3.akspic.ru/preview/7100-zanaves-tekstury-tekstura-tekstilnyj-tkan-550x310.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #615e5e;
+        background-blend-mode: multiply;
+        height: 75%;
+    }
+
+    .nav {
+        padding-top: 1%;
+        height: 30px;
+    }
+
+    .nav a {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 2%;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+
+    .nav a:hover {
+        color: rgb(211, 25, 25);
+    }
+
+    
+
+    .user img{
+        position: relative;
+        top:11px;
+        margin-right: 13px;
+        height: 40px;
+        width: 38px; 
+    }
+
+    .logo {
+        margin-top: 1%;
+    }
+
+    .logo img {
+        height: 30px;
+        width: 38px;
+    }
+
+    .logo span {
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+    }
+
+    header hr {
+        margin-top: 30px;
+    }
+
+    .about {
+        color: white;
+        padding-top: 5%;
+        width: 50%;
+        margin-left: 25%;
+        height: 500px;
+    }
+
+    .about p:nth-child(1) {
+        font-size: 3em;
+        color: white;
+    }
+
+    .about p:nth-child(2) {
+        padding-top: 15px;
+        font-size: 1.3em;
+        color: rgb(233, 230, 227);
+    }
+
+    .about p:nth-child(3) {
+        padding-top: 20px;
+        font-size: 1em;
+        color: rgb(253, 253, 253);
+        margin-bottom: 40px;
+    }
+
+    .about a {
+        text-decoration: none;
+        font-size: 1.2em;
+        padding: 10px;
+        color: rgb(221, 221, 221);
+        border: 2px solid grey;
+        width: 20%;
+    }
+
+    .button>a {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .button a:hover {
+        box-shadow: inset 0 0 0 23px #525353;
+    }
+}
+
+@media(min-width:1400px) {
+    .about {
+        color: white;
+        padding-top: 200px;
+        width: 50%;
+        margin-left: 25%;
+        height: 500px;
+    }
+}
+
+
+
+
+/* Кинотеатры */
+
+@media(min-width:1280px) {
+
+    .shedule {
+        background-color: #ffffff;
+        height: 840px;
+    }
+
+    .cinemas {
+        float: left;
+        padding-top: 4%;
+        margin-left: 3%;
+        width: 20%;
+    }
+
+    .cinemas ul {
+        padding-top: 8px;
+    }
+
+    .cinemas ul li {
+        padding-top: 20px;
+        list-style: none;
+        text-align: center;
+        border-right: 1px solid grey;
+    }
+
+    .cinemas ul h2 {
+        text-align: center;
+        color: rgb(134, 131, 126);
+    }
+
+    .cinemas ul li a {
+        margin-top: 10px;
+        text-decoration: none;
+        color: rgb(78, 72, 72);
+        display: inline-block;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    .cinemas ul li a:hover {
+        color: rgb(201, 121, 30);
+    }
+
+    .date {
+        float: left;
+        padding-top: 2.7%;
+        padding-left: 2%;
+        width: 75%;
+    }
+
+
+    .date ul li {
+        display: inline;
+        margin-right: 4%;
+    }
+
+    .date ul li a {
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(77, 76, 74);
+        font-weight: bold;
+    }
+
+    .date ul li a {
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(77, 76, 74);
+        font-weight: bold;
+    }
+
+
+    .date ul li a:hover {
+        color: rgb(201, 121, 30);
+    }
+
+    .date ul li a.visited {
+        color: rgb(201, 121, 30);
+    }
+
+    .cinemas ul li a.visited {
+        color: rgb(201, 121, 30);
+    }
+
+    /* Список фильмов */
+
+
+    .films {
+        width: 100%;
+    }
+
+    .films ul li {
+        width: 200px;
+        display: inline-block;
+        text-align: center;
+        height: 300px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+
+    .films img {
+        width: 200px;
+        height: 300px;
+        background-blend-mode: multiply;
+        background-size: cover;
+    }
+
+    .films ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .films ul li a img:hover {
+        color: black;
+    }
+
+    .films figure img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .films figure:hover img {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.15);
+    }
+
+    .email {
+        float: left;
+        background-image: url('https://wylsa.com/wp-content/uploads/2019/04/cinema.jpg');
+        background-blend-mode: multiply;
+        background-color: #273f91;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+        width: 100%;
+        text-align: center;
+        color: white;
+        height: 400px;
+    }
+
+    .mail {
+        margin-top: 5%;
+    }
+
+    .mail span {
+        font-size: 5em;
+    }
+
+    .mail span:nth-child(3) {
+        font-size: 2em;
+        color: silver;
+    }
+
+    .mail input {
+        margin-top: 20px;
+        padding: 10px 50px;
+        border-radius: 9px;
+        border: 2px solid #555;
+    }
+
+    .mail input {
+        flex-grow: 1;
+        color: #bfd2ff;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        vertical-align: middle;
+    }
+
+    .mail button {
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.25em;
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: 1px solid rgb(201, 121, 30);
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+
+    .mail button:hover {
+        background-color: rgb(201, 121, 30);
+        /* Green */
+        color: white;
+    }
+
+}
+
+
+/* Футер */
+
+.center {
+    display: table;
+    width: 100%;
+    height: 450px;
+}
+
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+
+#social-test h2 {
+    color: black;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+}
+
+#social-test .social {
+    padding-left: 0px;
+}
+
+#social-test li {
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(167, 146, 129, 0.4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+    transition: ease .3s;
+}
+
+#social-test li:hover:nth-child(4) {
+    color: red;
+    border: 1px solid red;
+}
+
+#social-test li:hover:nth-child(3) {
+    color: rgb(22, 22, 82);
+    border: 1px solid rgb(22, 22, 82);
+}
+
+#social-test li:hover:nth-child(2) {
+    color: rgb(129, 28, 96);
+    border: 1px solid rgb(129, 28, 96);
+}
+
+#social-test li:hover:nth-child(1) {
+    color: rgb(43, 50, 155);
+    border: 1px solid rgb(43, 50, 155);
+}
+
+.social:hover>li {
+    opacity: 0.5;
+}
+
+.social:hover>li:hover {
+    opacity: 1;
+}
+
+
+
+
+
+/* Прелоадер */
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: black;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+.loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: black;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+.loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: black;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/* @keyframes load {
+    0% {
+        opacity: 0.08;
+        filter: blur(5px);
+        letter-spacing: 10px;
+    }
+
+    100% {
+        opacity: 1;
+        letter-spacing: 3px;
+    }
+}
+
+.animate {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto; 
+    font-family: Helvetica, sans-serif, Arial;
+    animation: load 1.2s infinite 0s ease-in-out;
+    animation-direction: alternate;
+    text-shadow: 0 0 1px white;
+    color: white;
+    font-family: 'Montserrat';
+} */
+
+
+/* Seacrh */
+
+.search-box {
+    margin-top: 20px;
+    border: solid 5px black;
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+}
+.search-box input[type="text"] {
+    background-color: rgb(216, 216, 216);
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    padding: 5px 40px 5px 10px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 50px;
+    transition: width 800ms cubic-bezier(0.5, -0.5, 0.5, 0.5) 600ms;
+}
+.search-box input[type="text"]:focus {
+    outline: none;
+}
+.search-box input[type="text"]:focus, .search-box input[type="text"]:not(:placeholder-shown) {
+    width: 300px;
+    transition: width 800ms cubic-bezier(0.5, -0.5, 0.5, 1.5);
+}
+.search-box input[type="text"]:focus + span, .search-box input[type="text"]:not(:placeholder-shown) + span {
+    bottom: 13px;
+    right: 10px;
+    transition: bottom 300ms ease-out 800ms, right 300ms ease-out 800ms;
+}
+.search-box input[type="text"]:focus + span:after, .search-box input[type="text"]:not(:placeholder-shown) + span:after {
+    top: 0;
+    right: 10px;
+    opacity: 1;
+    transition: top 300ms ease-out 1100ms, right 300ms ease-out 1100ms, opacity 300ms ease 1100ms;
+}
+.search-box span {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -13px;
+    right: -15px;
+    transition: bottom 300ms ease-out 300ms, right 300ms ease-out 300ms;
+}
+.search-box span:before, .search-box span:after {
+    content: '';
+    height: 25px;
+    border-left: solid 5px black;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+.search-box span:after {
+    transform: rotate(45deg);
+    opacity: 0;
+    top: -20px;
+    right: -10px;
+    transition: top 300ms ease-out, right 300ms ease-out, opacity 300ms ease-out;
+}
